@@ -1,9 +1,15 @@
+## sample spring boot app ( with docker usable in fargate ) showing how to read secres from aws secrets manager
+#local start:
 http://localhost:8080/spring-docker-db-sm/hello
+
 http://localhost:8080/spring-docker-db-sm/helloPerson
+
 with docker for windows
+
 http://10.0.75.1:8080/spring-docker-db-sm/hello
 
 
+#infos
 create a mysql db named cce and add an entry to the table persons
 
 create a secret in aws secrets manager, you need the secret name and the ARN for this examplef
